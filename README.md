@@ -33,11 +33,11 @@ Connect the adapter to the board as following:
 
 | Adapter pin | Board pin |
 | ----------- | --------- |
-|     TXD     |     A9    |
-|     RXD     |    A10    |
+|     TXD     |    A10    |
+|     RXD     |     A9    |
 |     GND     |     G     |
 
-Put BOOT1 jumper (the one closer to RESET button) into "1" position and reset
+Put BOOT0 jumper (the one further from RESET button) into "1" position and reset
 the board. Now flash it with
 
 ```
